@@ -1,0 +1,46 @@
+
+.navbar{
+    background-color: rgb(244, 244, 255);
+    margin-top: 1px;
+    border-top: 1px solid gray;
+    border-bottom: 1px solid gray;
+    .navbar-brand{
+        font-size: 28px;
+        font-weight: bold;
+    }
+    button{
+        background-color: rgb(208, 208, 223);
+        color: blue;
+        &:hover{
+            background-color: blue;
+            color: white;
+        }
+    }
+    .activeSupport{
+        color: blue !important;
+    }
+    .nav-link{
+        
+        font-weight: 600;
+        &:hover{
+            color: blue !important;
+        }
+    }
+}
+.getStarted{
+    .widthBikin{
+        font-size: 42px;
+    }
+    .widthBootstrap{
+        font-size: 24px;
+    }
+    .center {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+      }
+}
+.aboutUs{
+    background-color: rgb(91, 91, 207);
+}

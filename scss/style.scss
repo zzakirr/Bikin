@@ -42,5 +42,19 @@
       }
 }
 .aboutUs{
-    background-color: rgb(91, 91, 207);
+    background-color: rgb(81, 81, 163) !important;
+}
+.brands{
+    background-color: rgb(232, 234, 236) !important;
+    img{
+        &:hover{
+            width: 50%;
+            cursor: pointer;
+            transition: all 0.4s;
+        }
+    }
+}
+.services{
+    background-color: rgb(16, 16, 56);
+    
 }
